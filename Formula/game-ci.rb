@@ -1,28 +1,28 @@
 class GameCi < Formula
   desc "CLI for building and testing games in CI (Unity, Godot, Unreal, Bevy)"
   homepage "https://game.ci"
-  version "0.1.68"
+  version "0.1.69"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/game-ci/cli/releases/download/v0.1.68/game-ci-macos-arm64.tar.gz"
-      sha256 "02d30841fd43bf7eaec6d73f33c60ea0dfb29a4f29ad42b635c4f5de3c68747a"
+      url "https://github.com/game-ci/cli/releases/download/v0.1.69/game-ci-macos-arm64.tar.gz"
+      sha256 "afa8f39dadeff60ab5e7b07e371f85a7338943147b02e41735aa4d30011859c1"
     end
     on_intel do
-      url "https://github.com/game-ci/cli/releases/download/v0.1.68/game-ci-macos-x64.tar.gz"
-      sha256 "b45b2db95b25bbd085d6a1023ffc7b40eb200dc9325707b6631961f5f4706cd3"
+      url "https://github.com/game-ci/cli/releases/download/v0.1.69/game-ci-macos-x64.tar.gz"
+      sha256 "f3e7cd39670504801d5a4c72b2767bc9a6257bdb6564c320a36d2dfd1dc04f15"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/game-ci/cli/releases/download/v0.1.68/game-ci-linux-arm64.tar.gz"
-      sha256 "914549ae457b92a460ba87f13025c316c9359759314819bc3046252415517dd4"
+      url "https://github.com/game-ci/cli/releases/download/v0.1.69/game-ci-linux-arm64.tar.gz"
+      sha256 "58b74ec6c7cc8f6da5cda471df8a118bd06047e458192e65693ebf790e7a5b10"
     end
     on_intel do
-      url "https://github.com/game-ci/cli/releases/download/v0.1.68/game-ci-linux-x64.tar.gz"
-      sha256 "0a6781c23fd8d4d98dab150b2b31348c3684dfb0ba37ba1f4af2487bbf7f9cf2"
+      url "https://github.com/game-ci/cli/releases/download/v0.1.69/game-ci-linux-x64.tar.gz"
+      sha256 "78f39695ce2e0e6e26645e1b13c8b92223b40839a74b2d98952b867b1df90365"
     end
   end
 
